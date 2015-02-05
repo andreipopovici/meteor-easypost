@@ -8,7 +8,7 @@ It's up to you to securely set the environment variable. For testing, you can us
 
 ```
 Meteor.startup(function () {
-    process.env.EASYPOST_KEY = '<your test API key here';
+    process.env.EASYPOST_KEY = '<your test API key here>';
 });
 ```
 
