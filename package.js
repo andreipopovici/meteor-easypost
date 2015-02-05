@@ -1,6 +1,6 @@
 Package.describe({
   name: 'adyus:easypost',
-  version: '0.0.1',
+  version: '2.0.5',
   // Brief, one-line summary of the package.
   summary: 'Meteor version of node-easypost',
   // URL to the Git repository containing the source code for this package.
