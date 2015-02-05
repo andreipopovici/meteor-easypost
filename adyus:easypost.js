@@ -1,1 +1,1 @@
-var Easypost = Npm.require('node-easypost');
+Easypost = Npm.require('node-easypost');

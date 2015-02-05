@@ -1,6 +1,6 @@
 Package.describe({
   name: 'adyus:easypost',
-  version: '2.0.5_1',
+  version: '2.0.5_3',
   // Brief, one-line summary of the package.
   summary: 'Meteor version of node-easypost',
   // URL to the Git repository containing the source code for this package.
@@ -12,8 +12,8 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
-  api.export('Easypost', 'server');
-  api.addFiles('adyus:easypost.js', 'server');
+  api.export('Easypost');
+  api.addFiles('adyus:easypost.js');
 });
 
 Package.onTest(function(api) {
