@@ -23,5 +23,5 @@ Package.onTest(function(api) {
 });
 
 Npm.depends({
-  node-easypost: "2.0.5"
+  'node-easypost': "2.0.5"
 });
